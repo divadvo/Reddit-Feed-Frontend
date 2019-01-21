@@ -1,4 +1,4 @@
-# Reddit Feed Fronend
+# Reddit Feed Frontend
 
 React frontend for a simple Reddit feed app
 
