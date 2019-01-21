@@ -6,7 +6,7 @@ import axios from "axios";
 let API_URL;
 // No tailing slash
 const BACKEND_URL_DEV = "http://localhost:5001";
-const BACKEND_URL_PRODUCTION = "http://reddit-feed-backend.herokuapp.com";
+const BACKEND_URL_PRODUCTION = "https://reddit-feed-backend.herokuapp.com";
 
 if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
   // dev
