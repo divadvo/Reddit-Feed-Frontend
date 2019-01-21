@@ -58,6 +58,14 @@ $ yarn test
 
 Create a new app on Heroku. Use this buildpack for React: `https://github.com/mars/create-react-app-buildpack.git`
 
+Optional: create app using Heroku CLI: `$ heroku create`.
+Or connect to existing app: `$ heroku git:remote -a reddit-feed-backend`
+
+```
+$ heroku buildpacks:set https://github.com/mars/create-react-app-buildpack.git
+$ git push heroku master
+```
+
 Deploy backend: [Backend Repository](https://github.com/divadvo/Reddit-Feed-Backend)
 
 Change `BACKEND_URL_PRODUCTION` in `src/Dashboard/index.js` to point to the backend domain.
